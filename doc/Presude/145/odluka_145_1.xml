@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
+	<judgment>
+		<header>
+			<p class="caseNumber">K.br.25/14</p>
+		</header>
+		<judgmentBody>
+			<introduction>
+				<p style="text-align: center;">U IME CRNE GORE</p>
+				<p>
+					Viši sud u Bijelom Polju u vijeću sastavljenom od sudije <judge id="jud01" refersTo="#boskovic">Bošković Vukomira</judge>, kao predsjednika vijeća,
+					stalnih sudija <judge id="jud02" refersTo="#djesevic">Dješević Šefkije</judge> i <judge id="jud03" refersTo="#varagic">Varagić Jokana</judge>,
+					kao članova vijeća, uz učešće namještenika suda Duborija Radmile, kao zapisničara,
+					u krivičnom predmetu optuženog <party id="p2" refersTo="#lr" as="#Defendant">L. R.</party> iz A,
+					zbog <ref id="kriv_cl_143" href="/krivicni_clan/143">krivičnog djela ubistvo iz čl. 143 Krivičnog zakonika Crne Gore</ref>, po optužnici <party id="p1" refersTo="#visedrzavnotuzilastvo" as="#Prosecutor">Višeg državnog tužilaštva</party>
+					<ref id="pres_kt_br_28/14" href="/presude/09-05-2014/Kt-br-28-14">Kt.br.28/14</ref> od <date date="09-05-2014">09.05.2014 godine, nakon održanog usmenog, javnog i glavnog pretresa 
+					u prisustvu zamjenika Višeg državog tužioca M. V, optuženog <party id="p2" refersTo="#lr" as="#Defendant">L. R</party>, njegovog branioca A.A, donio je <date date="24-10-2014">24.10.2014</date>
+					godine, a javno objavio <date date="04-11-2014">04.11.2014</date> godine
+				</p>
+				<p style="text-align: center;">PRESUDU</p>
+			<introduction>
+			<background>
+				<p>
+					Optuženi <party id="p2" refersTo="#lr" as="#Defendant">L.R.</party>, JMBG ....., od oca M. i majke A, rođene B, rođen .... godine, u A, sa stalnim boravkom u
+					mjestu rođenja - O. b, državljanin Crne Gore, neoženjen, nezaposlen, lošeg imovnog stanja, osuđivan,
+					nalazi se u pritvoru od <date date="22-02-2014">22.02.2014</date> godine.
+
+				</p>
+			</background>
+			<decision>
+				<p style="text-align: center;">KRIV JE</p>
+				<p>
+					Što je:
+					Dana, <date date="22-02-2014">22.02.2014</date> godine, oko 16,30 h. u ugostiteljskom objektu „B“ lociranom u ul. B. D, bb, u A, svjestan
+					svog djela i htio je njegovo izvršenje, lišio života na mah, doveden bez svoje krivice u stanje jake
+					razdraženosti, sada pok. I. S. iz A, na način što je nakon što ga je sada pok. I. bez ikakvog razloga dva puta
+					udario stisnutom pesnicom u predjelu glave, od kojih udaraca je pao, nakon čega je ustao, pošao do
+					izlaznih vrata gdje mu se nalazila torba sa alatom i iz torbe uzeo čekić, prišao do sada pok. I, koji je u tom
+					momentu sjedio za stolom i više puta ga tim čekićem udario u predjelu glave, nanijevši mu teške tjelesne
+					povrede opasne po život u vidu: ovalnog otvora neravnih ivica i strana promjera oko 3,1x2,6 cm. u predjelu
+					srednje trećine desne tjemene kosti neposredno uz srednju liniju glave, ovalnog otvora ravnih ivica i
+					strana osim u predjelu donjeg poluobima gdje je dužina oko 2 cm. neravan ukupnog promjera oko 3,0x2,8
+					cm. u predjelu zadnje trećine desne tjemene kosti, od kojeg otvora se nadolje pruža potpuni pukotinski
+					Viši Sud u Bijelom Polju
+					K 25/2014
+					24. Oktobar 2014
+					prelom u dužini od oko 8 cm. do zadnje strane piramide desne slepoočne kosti, zbog kojih preloma je
+					došlo do oštećenja po život važnih moždanih centara – tkiva poglavine u desnom tjemenom predjelu,
+					desnom sljepoočno tjemenom predjelu, desnoj lobanjskoj jami i tkiva velikog mozga u predjelu vrha
+					sredine desnog tjemenog režnja, usled kojih povreda je kod istog nastupila smrt dana <date date="02-04-2014">02.04.2014</date> godine,
+					u Opštoj bolnici u B,
+					- Čime je izvršio <ref id="kriv_cl_145" href="/krivicni_clan/145"> krivično djelo ubistvo na mah iz čl. 145 Krivičnog zakonika Crne Gore</ref>,
+					Pa ga sud primjenom tog zakonskog propisa i čl. 14, 15, 32, 36, 42, 51 Kz i čl. 226, 227, 239 i 374 ZKP-a Crne
+					Gore,
+				</p>
+				<p style="text-align: center;">OSUĐUJE</p>
+				<p>
+					Na kaznu zatvora u trajanju od 5 (pet) godina, u koju kaznu mu se ima uračunati vrijeme provedeno u
+					pritvoru od <date date="22-02-2014">22.02.2014</date> godine, pa nadalje.
+					Optuženi se obavezuje da na ime paušala plati iznos od 50,00 €, u korist Budžeta Crne Gore, na žiro račun
+					br. 530-7114-98, u roku od 15 dana po pravnosnažnosti presude pod prijetnjom prinudnog izvršenja.
+					O troškovima postupka biće odlučeno posebnim rješenjem kada budu pribavljeni potpuniji podaci.
+					Predstavnik oštećene porodice sada pok. I. S, njegova sestra I. K, se radi ostvarivanja imovinsko-pravnog
+					zahtjeva upućuje na parnicu.
+				</p>
+			</decision>
+		</judagmentBody>
+	</judgment>
+</akomaNtoso>
+</xml>
