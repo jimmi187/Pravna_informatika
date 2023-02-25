@@ -4,22 +4,23 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
-import static org.junit.jupiter.api.Assertions.*;
+class PDFParserTest {
 
-class PdfToConsoleSingletonTest {
-    public static PdfToConsoleSingleton pdfObj;
+    public static PDFParser parser;
 
     static {
         try {
-            pdfObj = PdfToConsoleSingleton.getInstance();
+            parser = PDFParser.getInstance();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
     @Test
-    void getPdfAsString() throws IOException {
-        System.out.println(pdfObj.getPdfAsString());;
+    void convertPDFToString() throws IOException {
+        System.out.println(parser.convertPDFToString("151", "test.pdf"));
     }
 }
