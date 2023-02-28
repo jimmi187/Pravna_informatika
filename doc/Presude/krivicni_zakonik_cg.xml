@@ -38,7 +38,7 @@
 				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
 				<TLCOrganization eId="ns" href="/akn/cg/ontology/organization/ns" showAs="Narodna skupstina Republike Crne Gore"/>
 				<TLCOrganization eId="sl" href="/akn/cg/ontology/organization/sl" showAs="Službeni list Republike Crne Gore"/>
-				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/somebody" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
 			</references>
 		</meta>
 		<header>

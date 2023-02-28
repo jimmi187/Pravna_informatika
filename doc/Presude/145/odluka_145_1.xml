@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13../schemas/akomantoso30.xsd">
 	<judgment>
+		<meta>
+			<identification source="#timnestobolje">
+				<FRBRWork>
+					<FRBRthis value="/akn/cg/judgment/2014-10-24/25-14!main"/>
+					<FRBRuri value="/akn/cg/judgment/2014-10-24/25-14"/>
+					<FRBRdate date="2014-10-24"/>
+					<FRBRauthor href="#vs" as="#author"/>
+					<FRBRcountry value="cg"/>
+					<FRBRsubtype value="judgment"/>
+					<FRBRnumber value="25-14"/>                    
+					<FRBRname value="K 25/2014"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/cg/judgment/2014-10-24/25-14/cg@/!main"/>
+					<FRBRuri value="/akn/cg/judgment/2014-10-24/25-14/cg@"/>
+					<FRBRdate date="2014-10-24"/>
+					<FRBRauthor href="#vs" as="#editor"/>
+					<FRBRlanguage language="cg"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/cg/judgment/2014-10-24/25-14/cg@/!main.xml"/>
+					<FRBRuri value="/akn/cg/judgment/2014-10-24/25-14/cg@/!main.akn"/>
+					<FRBRdate date="2014-10-24"/>
+					<FRBRauthor href="#timnestobolje" as="#generator"/>
+			<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="vs" date="2014-10-24" showAs="Viši Sud u Bijelom Polju" number="K 25/2014"/>
+			<references source="#timnestobolje">
+				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+				<TLCOrganization eId="vs" href="/akn/cg/ontology/organization/vs" showAs="Viši Sud u Bijelom Polju"/>
+				<TLCOrganization eId="vdt" href="/akn/cg/ontology/organization/vdt" showAs="Više državno tužilaštvo"/>
+				<TLCPerson eId="timnestobolje" href="/akn/cg/ontology/person/timnestobolje" showAs="Tim pravna informatika 2022/23 zvani Nešto bolje"/>
+				<TLCPerson eId="boskovic" href="/akn/cg/ontology/person/judges/boskovic" showAs="Bošković Vukomir"/>
+				<TLCPerson eId="djesevic" href="/akn/cg/ontology/person/judges/djesevic" showAs="Dješević Šefkija"/>
+				<TLCPerson eId="varagic" href="/akn/cg/ontology/person/judges/varagic" showAs="Varagić Jokana"/>
+				<TLCPerson eId="duborija" href="/akn/cg/ontology/person/duborija" showAs="Duborija Radmila"/>
+				<TLCPerson eId="lr" href="/akn/cg/ontology/person/lr" showAs="L. R."/>
+				<TLCPerson eId="aa" href="/akn/cg/ontology/person/aa" showAs="A. A."/>
+			</references>
+		</meta>
 		<header>
 			<p class="caseNumber">K.br.25/14</p>
 		</header>
@@ -8,13 +51,13 @@
 			<introduction>
 				<p style="text-align: center;">U IME CRNE GORE</p>
 				<p>
-					Viši sud u Bijelom Polju u vijeću sastavljenom od sudije <judge id="jud01" refersTo="#boskovic">Bošković Vukomira</judge>, kao predsjednika vijeća,
+					<ref href="#vs"> Viši sud u Bijelom Polju u vijeću sastavljenom od sudije <judge id="jud01" refersTo="#boskovic">Bošković Vukomira</judge>, kao predsjednika vijeća,
 					stalnih sudija <judge id="jud02" refersTo="#djesevic">Dješević Šefkije</judge> i <judge id="jud03" refersTo="#varagic">Varagić Jokana</judge>,
-					kao članova vijeća, uz učešće namještenika suda Duborija Radmile, kao zapisničara,
+					kao članova vijeća, uz učešće namještenika suda <ref href="#duborija"> Duborija Radmile, kao zapisničara,
 					u krivičnom predmetu optuženog <party id="p2" refersTo="#lr" as="#Defendant">L. R.</party> iz A,
-					zbog <ref id="kriv_cl_143" href="/krivicni_clan/143">krivičnog djela ubistvo iz čl. 143 Krivičnog zakonika Crne Gore</ref>, po optužnici <party id="p1" refersTo="#visedrzavnotuzilastvo" as="#Prosecutor">Višeg državnog tužilaštva</party>
+					zbog <ref id="krivicni_zakonik_cg_kriv_cl_143" href="krivicni_zakonik_cg/krivicni_clan/143">krivičnog djela ubistvo iz čl. 143 Krivičnog zakonika Crne Gore</ref>, po optužnici <party id="p1" refersTo="#vdt" as="#Prosecutor">Višeg državnog tužilaštva</party>
 					<ref id="pres_kt_br_28/14" href="/presude/09-05-2014/Kt-br-28-14">Kt.br.28/14</ref> od <date date="09-05-2014">09.05.2014 godine, nakon održanog usmenog, javnog i glavnog pretresa 
-					u prisustvu zamjenika Višeg državog tužioca M. V, optuženog <party id="p2" refersTo="#lr" as="#Defendant">L. R</party>, njegovog branioca A.A, donio je <date date="24-10-2014">24.10.2014</date>
+					u prisustvu zamjenika Višeg državog tužioca M. V, optuženog <party id="p2" refersTo="#lr" as="#Defendant">L. R</party>, njegovog branioca <lawyer id="lo1" referseTo="aa">A.A</lawyer>, donio je <date date="24-10-2014">24.10.2014</date>
 					godine, a javno objavio <date date="04-11-2014">04.11.2014</date> godine
 				</p>
 				<p style="text-align: center;">PRESUDU</p>
@@ -67,4 +110,3 @@
 		</judagmentBody>
 	</judgment>
 </akomaNtoso>
-</xml>
