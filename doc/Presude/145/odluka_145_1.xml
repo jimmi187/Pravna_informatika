@@ -43,6 +43,8 @@
 				<TLCPerson eId="duborija" href="/akn/cg/ontology/person/duborija" showAs="Duborija Radmila"/>
 				<TLCPerson eId="lr" href="/akn/cg/ontology/person/lr" showAs="L. R."/>
 				<TLCPerson eId="aa" href="/akn/cg/ontology/person/aa" showAs="A. A."/>
+				<TLCPerson eId="is" href="/akn/cg/ontology/person/is" showAs="I. S."/>
+				<TLCPerson eId="ik" href="/akn/cg/ontology/person/ik" showAs="I. K."/>
 			</references>
 		</meta>
 		<header>
@@ -77,7 +79,7 @@
 					Što je:
 					Dana, <date date="2014-02-22">22.02.2014</date> godine, oko <time time="16:30:00">16,30</time> h. u ugostiteljskom objektu „B“ lociranom u ul. B. D, bb, u A, svjestan
 					svog djela i htio je njegovo izvršenje, lišio života na mah, doveden bez svoje krivice u stanje jake
-					razdraženosti, sada pok. I. S. iz A, na način što je nakon što ga je sada pok. I. bez ikakvog razloga dva puta
+					razdraženosti, sada pok. <party id="p1_1" refersTo="#is" as="#Prosecutor">I. S.</party> iz A, na način što je nakon što ga je sada pok. I. bez ikakvog razloga dva puta
 					udario stisnutom pesnicom u predjelu glave, od kojih udaraca je pao, nakon čega je ustao, pošao do
 					izlaznih vrata gdje mu se nalazila torba sa alatom i iz torbe uzeo čekić, prišao do sada pok. I, koji je u tom
 					momentu sjedio za stolom i više puta ga tim čekićem udario u predjelu glave, nanijevši mu teške tjelesne
@@ -112,7 +114,7 @@
 					Optuženi se obavezuje da na ime paušala plati iznos od 50,00 €, u korist Budžeta Crne Gore, na žiro račun
 					br. 530-7114-98, u roku od 15 dana po pravnosnažnosti presude pod prijetnjom prinudnog izvršenja.
 					O troškovima postupka biće odlučeno posebnim rješenjem kada budu pribavljeni potpuniji podaci.
-					Predstavnik oštećene porodice sada pok. I. S, njegova sestra I. K, se radi ostvarivanja imovinsko-pravnog
+					Predstavnik oštećene porodice sada pok. <party id="p1_1" refersTo="#is" as="#Prosecutor">I. S</party>, njegova sestra <ref href="#ik">I. K</ref>, se radi ostvarivanja imovinsko-pravnog
 					zahtjeva upućuje na parnicu.
 				</p>
 			</decision>
