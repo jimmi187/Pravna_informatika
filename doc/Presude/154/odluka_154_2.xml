@@ -29,7 +29,7 @@
 			<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
-			<publication name="os" date="2013-09-19" showAs="Osnovni Sud u Herceg Novom" number="K.br.136/13"/>
+			<publication name="os" date="2013-09-19" showAs="Osnovni Sud u Rožajama" number="K.br.136/13"/>
 			<references source="#timnestobolje">
 				<TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
 				<TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
