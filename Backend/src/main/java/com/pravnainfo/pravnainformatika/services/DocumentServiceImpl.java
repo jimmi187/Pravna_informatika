@@ -23,4 +23,8 @@ public class DocumentServiceImpl implements DocumentService {
     public String parsePDF(String brZakona, String docName) {
         return parser.convertPDFToString(brZakona, docName);
     }
+
+    public String parseCriminalLaw(){
+        return parser.convertCrimanlLawPdfToString();
+    }
 }
