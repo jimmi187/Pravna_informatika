@@ -21,4 +21,10 @@ public class DocumentController {
                                                   @PathVariable("docName") String docName){
         return new ResponseEntity<>(documentService.parsePDF(brZakona, docName), HttpStatus.OK);
     }
+
+    @GetMapping("krivicniZakonik")
+
+    public ResponseEntity<String> getRandomString(){
+        return new ResponseEntity<>(documentService.parseCriminalLaw(), HttpStatus.OK);
+    }
 }
